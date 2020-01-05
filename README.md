@@ -7,6 +7,9 @@ This will install t2mp3 globaly as a command line application
 npm install t2mp3 -g .
 ```
 
+## Seting up Google TTS
+This project uses google's tts api which needs some setting up before hand. Please follow [this guide](https://cloud.google.com/text-to-speech/docs/quickstart-client-libraries) and do steps 1-5 only. All the rest will be done automatically.
+
 ## Usage
 
 There are three different mode of t2mp3 (text, ssml, and url). Text and SSML modes will read a .txt or .ssml file respectively, and output a mp3 file in the current directory. URL mode will go to the website and parse just the main text from the article (like instapaper) and output a mp3 with that content. When using t2mp3 all you have to do is run t2mp3 in the terminal with what mode you want as a argument, like below.
